@@ -5,6 +5,7 @@
   display: flex;
   position: sticky;
   align-items: center;
+  z-index: 999;
 }
 
 .topbarLeft {
