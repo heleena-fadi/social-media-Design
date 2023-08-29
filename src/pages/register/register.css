@@ -1,0 +1,80 @@
+.signup {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signupWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  .signupLeft,
+  .signupRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .signupLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+  }
+  .signupDesc {
+    font-size: 24px;
+  }
+  
+  .signupBox {
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .signupInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .signupButton:focus {
+    outline: none;
+  }
+  .signupButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #1775ee;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .signupForgot{
+    text-align: center;
+    color: #1775ee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .loginRegisterButton{
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #42b72a;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: center;
+  }
